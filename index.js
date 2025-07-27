@@ -15,7 +15,6 @@ document.getElementById('setLinkBtn').addEventListener('click', function() {
     }
 
     try {
-        // Перевірка на коректність URL
         const url = new URL(trimmed);
         savedLink = url.href;
         alert("Посилання збережено: " + savedLink);
